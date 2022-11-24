@@ -1,0 +1,18 @@
+header {
+  position: sticky;
+  top: 0;
+  font-size: 1.5rem;
+  font-family: $text-secondary-font;
+  z-index: 2;
+  .nav-item {
+    margin: 0.3rem;
+    & a {
+      display: inline-block;
+    }
+  }
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
