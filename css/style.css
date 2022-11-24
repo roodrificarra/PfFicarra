@@ -255,6 +255,10 @@ footer {
   width: 100%;
 }
 
+.copyright {
+  color: rgb(236, 236, 236);
+}
+
 .boton-contacto {
   padding: 15px 25px;
   border: unset;
@@ -414,10 +418,10 @@ form {
   margin: auto;
   background: rgba(0, 0, 0, 0.4);
   padding: 10px 20px;
-  margin-top: 3rem;
+  margin-top: 1rem;
   border-radius: 7px;
   margin-bottom: 3rem;
-  width: 90%;
+  width: 60%;
 }
 
 form h2 {
