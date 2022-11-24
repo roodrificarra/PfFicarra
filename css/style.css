@@ -158,6 +158,10 @@ header .nav-item a {
   padding: 1rem 0rem;
 }
 
+.main__logo {
+  width: 100px;
+}
+
 .boton-aqui {
   padding: 5px 20px;
 }
