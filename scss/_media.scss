@@ -3,10 +3,9 @@
     display: none;
   }
   .main__title {
+    @include title;
     padding: 3rem;
     font-size: 2.5rem;
-    text-transform: uppercase;
-    text-align: center;
     font-weight: bold;
   }
   .iframe-container iframe {
