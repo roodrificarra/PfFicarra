@@ -136,6 +136,10 @@ header .nav-item a {
   padding: 0;
 }
 
+.nav__title {
+  text-decoration: none;
+}
+
 .section__image-n {
   width: 16rem;
   height: 16rem;
@@ -220,11 +224,13 @@ hr {
 .footer__main {
   font-size: 1.5rem;
   font-family: "Abyssinica SIL", serif;
-  margin: 0.5rem;
   color: rgb(236, 236, 236);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.footer__main.footer__main-i {
+  font-size: 1.3rem;
 }
 
 .footer__list {
@@ -252,7 +258,8 @@ hr {
 footer {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 95%;
+  margin-top: 10rem;
 }
 
 .copyright {
@@ -421,7 +428,6 @@ form {
   margin-top: 1rem;
   border-radius: 7px;
   margin-bottom: 3rem;
-  width: 60%;
 }
 
 form h2 {
